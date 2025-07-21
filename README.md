@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2243f000-33fc-4194-8d20-e20730ffcedc" alt="AI Banner" width="400"/>
+</div>
+
 📁 AI_Projects Repository
 
 This repository showcases a collection of AI projects focused on designing and building intelligent systems utilizing Machine Learning, Deep Learning, and Natural Language Processing (NLP).
@@ -8,7 +12,5 @@ Emphasis is placed on both model development and deployment, as well as advanced
 
 These projects reflect a commitment to transforming complex datasets into actionable intelligence and demonstrate practical applications of AI in solving real-world problems.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/2243f000-33fc-4194-8d20-e20730ffcedc" alt="AI Banner" width="400"/>
-</div>
+
 
