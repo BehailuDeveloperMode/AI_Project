@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ED86F372-8EDC-DE1B-8327-0DE6D1D25A36" mainViewID="08271CE0-851C-D36D-C30E-0CC494DAFAD3">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-21 07:11:43 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
