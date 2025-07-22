@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="YAYOBE Auto insurance model" id="D709D11F-082D-6460-4DCF-00AF4B0E2548" version="3.5">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 07:15:37 UTC</createdTime>
+<ownerDesignName>YAYOBE Auto insurance model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D709D11F-082D-6460-4DCF-00AF4B0E2548</designId>
+</OSDM_Design>
