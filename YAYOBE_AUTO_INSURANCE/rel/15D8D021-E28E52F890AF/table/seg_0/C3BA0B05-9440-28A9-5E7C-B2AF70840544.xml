@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3BA0B05-9440-28A9-5E7C-B2AF70840544" name="claim">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 08:44:01 UTC</createdTime>
+<generatorID>8F30AB56-E69E-2F08-5183-1FF79CF11C0C</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>
