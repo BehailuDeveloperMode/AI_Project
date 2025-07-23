@@ -2,7 +2,7 @@
 --   at:        2025-07-22 18:11:02 PDT
 --   site:      SQL Server 2012
 --   type:      SQL Server 2012
-
+-- Task review  Oracle SQL Developer Data Modeler generated
 
 USE master;
 GO
@@ -441,7 +441,7 @@ GO
 -- DROP DATABASE: 1
 -- DROP TABLE: 9
 -- OBJECT_ID Table Drops: 9
--- Safe IF EXISTS checks: 9                      0
--- 
--- ERRORS                                   0
--- WARNINGS                                 0
+-- Safe IF EXISTS checks: 9     
+-- ERRORS: 0                                   
+-- WARNINGS: 0
+-- Task complition: 100 %
