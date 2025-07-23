@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="agent_policy" directorySegmentName="seg_0" id="9521338F-BB7C-0858-1974-F26DE218A350">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:55:16 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<sourcePk>22DA0C41-9DEB-10D3-18E7-F5951E1038E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5015793E-B6E1-7E1B-A6BC-BD0166BA1445</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A12C9C57-88C5-6487-BC08-8E3CC063A409</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

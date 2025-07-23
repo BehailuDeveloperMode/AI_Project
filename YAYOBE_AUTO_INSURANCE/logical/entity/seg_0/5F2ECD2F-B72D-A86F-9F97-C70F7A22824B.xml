@@ -14,4 +14,45 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coverage_type_id" id="B3E93ABA-AABF-0FBD-A481-E878B9E39811">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 18:59:04 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="coverage_name" id="C88B0D3D-6385-912E-0486-A62E120924BB">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:00:20 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D31F8744-C251-83E8-6168-0FB4FA3D2A50" name="pk_coverage_type">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:00:50 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B3E93ABA-AABF-0FBD-A481-E878B9E39811</newElementsIDs>
+<usedAttributes>
+<attributeRef>B3E93ABA-AABF-0FBD-A481-E878B9E39811</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

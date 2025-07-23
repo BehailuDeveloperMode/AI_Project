@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="claim_payment" directorySegmentName="seg_0" id="FE92D75A-0483-EBB0-A2DA-50E3DC1BFA50">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:02:49 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<sourcePk>F2D439A9-3D34-48FF-6A79-15B71FF31C9C</sourcePk>
+<targetPk>D9EB0655-4B25-8A2B-8783-33F4D52793EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F30AB56-E69E-2F08-5183-1FF79CF11C0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F757E9F4-F728-623D-88B4-77C83175B29D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

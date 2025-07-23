@@ -7,4 +7,139 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehicle_id" id="C0C17B3F-7699-DB42-F8AA-0745F87D0EED">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>D4F8839D-51F3-015D-B11E-D6E94EE3992F</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="make" id="B3B37A37-5089-4847-84F0-D9B6E6FF52E5">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>F00CCF85-0BA4-4364-0169-99532B9294C0</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="4C808DD3-023E-ACE6-285E-63D5C7FA793A">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>4022187A-85A9-2332-8102-E5373C68005C</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="50AF5F8D-586F-04FA-5B12-E0858E6B8598">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>5E7B9BDE-8881-EF74-5903-051C56E4D64D</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vehicle_year" id="87FCC189-70F3-FB8C-0C79-4E5A7EF81026">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>8B672963-BF59-055F-1EAB-6CAA569789E4</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vin" id="52E071D7-ABD3-A633-FB6C-59730E13F19B">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>E893AF2A-06E7-8A07-EFEA-9E53D6585518</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>C7E4BD15-70BF-C1BE-4B7E-6B4525B91929</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="license_plate" id="635F48E2-7295-F327-0D57-56F2A49018F3">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>224C3D65-77E7-0891-1CD1-1CD91A366280</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>C7E4BD15-70BF-C1BE-4B7E-6B4525B91929</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_regester" id="A2E03753-6764-FB9D-12EB-056C63212854">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>BA1D7860-66D5-0725-0047-9B49B8DC43DC</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_customer_id" id="6EAEDBD3-08E0-B323-4D14-F0BFA77E4493">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>15A43F32-243F-A31A-D32A-05DBDE50D924</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B1DAA99-8B4F-B4B2-1A44-246EA90DB504" referredColumn="8226C727-C788-D341-1B21-7F53B31F91A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3BDA778-1B1D-A0A1-BCD9-FDC43A1D9742" name="vehicle_PK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>8A64B60D-C141-E8AD-1B6E-B3ADB10B91C5</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0C17B3F-7699-DB42-F8AA-0745F87D0EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89B4E08E-7DB1-77B2-9D77-F6C89AC87538" name="vehicle_customer_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>E1CF59B1-37F6-919E-5A17-6719B11D6907</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EAEDBD3-08E0-B323-4D14-F0BFA77E4493"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

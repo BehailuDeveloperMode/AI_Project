@@ -14,4 +14,113 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="payment_id" id="65FB5007-E527-6D16-CC95-8A7EB6DCDE22">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:50:52 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_date" id="0035ACD6-9382-E05D-CF46-ED59954B9A09">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:51:13 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9CF44F5F-E259-636F-A68E-8E33DDF3CC3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment-amount" id="EC48AB43-A501-0918-511B-C642CB96B420">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:51:30 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>559246B3-9B32-1166-BB7E-267A32CF388B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment-method" id="FC5A1EA5-72DC-6CC2-76C2-055326860B35">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:51:59 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_status" id="8392DBA2-9933-419A-0E24-B10973F946A7">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:52:30 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="policy_id" id="19C789BE-2933-F667-BFED-66D24CFC9BF4">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:57:43 UTC</createdTime>
+<generatorID>5EE35F7C-500E-2180-B44A-4BE2D1E43F75</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<referedAttribute>FFF0CC21-A80B-64A3-2515-83A84E5D8732</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="claim_id" id="AAADE0DF-53F5-0AAE-E99C-EA8AF5FAA0F8">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:03:10 UTC</createdTime>
+<generatorID>FE92D75A-0483-EBB0-A2DA-50E3DC1BFA50</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<referedAttribute>FE4DA11E-CFE0-2FFB-58F3-29D4C9271351</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9EB0655-4B25-8A2B-8783-33F4D52793EC" name="pk_payment">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 19:52:53 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>65FB5007-E527-6D16-CC95-8A7EB6DCDE22</newElementsIDs>
+<usedAttributes>
+<attributeRef>65FB5007-E527-6D16-CC95-8A7EB6DCDE22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

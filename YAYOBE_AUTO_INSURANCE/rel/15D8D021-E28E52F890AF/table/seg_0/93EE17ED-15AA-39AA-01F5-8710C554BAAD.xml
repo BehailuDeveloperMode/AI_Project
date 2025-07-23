@@ -7,4 +7,116 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="report_id" id="A0CB41C0-A97B-2AC2-96B3-62FFCF80941B">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>19FC3401-F7D6-0B12-5590-11DD9DA17D3B</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accident_date" id="5196DF7C-F0FA-4F59-C370-4ABB48592168">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>03E85F92-0168-7414-48A7-C8CA45878263</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9CF44F5F-E259-636F-A68E-8E33DDF3CC3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accident_time" id="374EF95F-5F2C-BBBE-CCB1-38A4F889C62D">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>486F48E1-78E7-FB5E-F617-519CEF136696</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<domain>23CFF5B9-E45B-92AB-46CC-F377C79EBB6F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="BC5E731E-21F2-78A1-0117-FCEB70BF4147">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>18B30806-496F-34D0-225D-3CAA92FBB077</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="police_report_number" id="B8490A3D-78BD-FC13-5856-4BFE2B80DC16">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>0A29CEF2-A5A6-D357-6B5F-E82B10E3D7F9</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fault_determination" id="059CAF2C-CE83-9AD3-9B61-DDE11C06043D">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>1669957C-9303-7E29-60BD-3B8883251172</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="policy_policy_id" id="C213A28D-2F3F-F66F-6746-0663B2D51CE8">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>9286B9BD-4029-BEA2-A531-4296FE1238E7</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A3F2A4B-B916-6B44-5A55-5D0FC89A3A94" referredColumn="6ED486BD-C9B8-2141-F226-620382C5C40D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55167453-D41A-F66B-AFF8-DAF514151456" name="accident_report_PK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>2CAA7898-8B75-17C2-8EDB-48B47D74C51B</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0CB41C0-A97B-2AC2-96B3-62FFCF80941B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58FE130E-2100-A738-52A2-E87023D9DDCB" name="accident_report_policy_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>5EE35F7C-500E-2180-B44A-4BE2D1E43F75</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C213A28D-2F3F-F66F-6746-0663B2D51CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

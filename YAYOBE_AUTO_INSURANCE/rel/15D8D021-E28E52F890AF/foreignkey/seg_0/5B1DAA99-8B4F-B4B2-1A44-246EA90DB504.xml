@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B1DAA99-8B4F-B4B2-1A44-246EA90DB504" containerWithKeyObject="B53DA679-0A57-AC70-F5EE-65B86F4DF9D2" localFKIndex="89B4E08E-7DB1-77B2-9D77-F6C89AC87538" name="vehicle_customer_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>E1CF59B1-37F6-919E-5A17-6719B11D6907</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<referredTableLongName>customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>602AE1B8-1A3F-1E76-6DF4-66C5408049C3</referredTableID>
+<keyObject>75644077-1755-1656-312E-91264A528CEC</keyObject>
+<referredKeyID>75644077-1755-1656-312E-91264A528CEC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>customer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

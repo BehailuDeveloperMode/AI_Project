@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65DA65EC-625C-DCA2-C00E-4E39C6862908" containerWithKeyObject="64E0FB5E-69FC-01B9-E829-047E7BEFFDFF" localFKIndex="1E52C625-FDCE-F206-6820-65C78A6BF056" name="payment_claim_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:04:48 UTC</createdTime>
+<generatorID>FE92D75A-0483-EBB0-A2DA-50E3DC1BFA50</generatorID>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<referredTableLongName>claim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3BA0B05-9440-28A9-5E7C-B2AF70840544</referredTableID>
+<keyObject>826ACDCE-036F-5F4D-E3D1-3D0BC29A73C5</keyObject>
+<referredKeyID>826ACDCE-036F-5F4D-E3D1-3D0BC29A73C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>claim_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

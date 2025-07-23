@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="policy_coverage" directorySegmentName="seg_0" id="C965E1E3-6E7D-9AA4-B63D-CE8E56456E0E">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-22 20:00:58 UTC</createdTime>
+<ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
+<engineerTo>
+<item key="15D8D021-A7FD-08DE-72A9-E28E52F890AF" value="true"/>
+</engineerTo>
+<sourcePk>FD54A4D6-687A-BD40-EA23-4DF12482A561</sourcePk>
+<targetPk>9F953178-80E5-839F-76EC-71F93552543D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A12C9C57-88C5-6487-BC08-8E3CC063A409</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>123EEE79-8766-41AC-199D-C84F9F5CEE0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
