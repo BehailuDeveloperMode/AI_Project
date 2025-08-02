@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="D5541A5A-9286-9F4F-B1AA-00D21F3E1E06">
-<createdBy>West Group Project</createdBy>
-<modifiedBy>Team Members</modifiedBy>
+<createdBy>Behailu Tessema</createdBy>
+<modifiedBy>Team Leader</modifiedBy>
 <createdTime>2025-07-22 08:27:31 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
@@ -54,7 +54,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F757E9F4-F728-623D-88B4-77C83175B29D" otype="Entity" vid="5A8AF4E9-7545-09CD-92EA-7AA686852F09">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="864" y="250" width="137" height="96"/>
+<bounds x="864" y="250" width="137" height="149"/>
 </OView>
 </objectViews>
 <connectors>
@@ -126,8 +126,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="926" y="115"/>
-<point x="926" y="250"/>
+<point x="920" y="115"/>
+<point x="920" y="250"/>
 </points>
 </Connector>
 </connectors>
