@@ -54,15 +54,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="police_report_number" id="B8490A3D-78BD-FC13-5856-4BFE2B80DC16">
+<Column name="number_of_accident" id="B8490A3D-78BD-FC13-5856-4BFE2B80DC16">
 <createdBy>tbeha</createdBy>
 <createdTime>2025-07-22 20:04:48 UTC</createdTime>
 <generatorID>0A29CEF2-A5A6-D357-6B5F-E82B10E3D7F9</generatorID>
 <ownerDesignName>YAYOBE_AUTO_INSURANCE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>3F665785-E2B9-5696-638E-A83414E87445</domain>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7EE60407-E8B0-27FC-A75F-70154FED60F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
