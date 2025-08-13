@@ -13,7 +13,10 @@
 -- If the target database or related objects already exist, they are safely dropped.
 -- This ensures a clean setup by removing any conflicting definitions before creating new ones.
 --===============================
-USE YAYOBE_AUTO_INSURANCE
+IF EXISTS (SELECT name FROM sys.databases WHERE name = 'YAYOBE_AUTO_INSURANCE')
+BEGIN
+    EXEC('USE YAYOBE_AUTO_INSURANCE');
+END
 GO
 --=======
 IF EXISTS (
